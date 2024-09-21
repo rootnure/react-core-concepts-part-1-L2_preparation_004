@@ -26,6 +26,9 @@
     - ***Conditional Rendering***
 - Dynamic Component for array of elements
     - **key** props
+- Interaction in React
+    - Do not call any function directly
+    - To pass a parameter to a function, must wrap using arrow function
 
 
 

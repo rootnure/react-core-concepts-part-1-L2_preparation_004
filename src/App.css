@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

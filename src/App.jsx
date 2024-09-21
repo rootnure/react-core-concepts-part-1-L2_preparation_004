@@ -1,26 +1,44 @@
 // import Actor from './Actor'
 import './App.css'
-import Singer from './Singer'
+// import Singer from './Singer'
 // import Todo from './Todo';
 
 function App() {
 
   // const actors = ['Sakib', 'Digbaji King', 'Manobotar Abbajan', 'Oi Bhaiya Na Please', 'Lottery King']
 
-  const singers = [
-    { id: 1, name: "Mahfuz Dada", age: 51 },
-    { id: 2, name: "Souvaw Day", age: 37 },
-    { id: 3, name: "Baccu Dadu", age: 48 },
-    { id: 4, name: "Priotoma Roy", age: 45 },
-    { id: 5, name: "Kaka Kakkar", age: 34 },
-  ]
+  // const singers = [
+  //   { id: 1, name: "Mahfuz Dada", age: 51 },
+  //   { id: 2, name: "Souvaw Day", age: 37 },
+  //   { id: 3, name: "Baccu Dadu", age: 48 },
+  //   { id: 4, name: "Priotoma Roy", age: 45 },
+  //   { id: 5, name: "Kaka Kakkar", age: 34 },
+  // ]
+
+  const handleClick = () => {
+    alert('btn clicked');
+  }
+
+  const addFive = (number) => {
+    alert(`${number + 5}`)
+  }
 
   return (
     <>
-      <h1>Vite + React</h1>
-      {
+      <h2>Vite + React</h2>
+
+      <button onClick={handleClick}>Click Me</button>
+
+      <button onClick={() => alert('click me too clicked')}>Click Me Too</button>
+
+      <button onClick={() => { alert('Also Click Me Clicked') }}>Also Click Me</button>
+
+      {/* parameter pass using array function wrapping */}
+      <button onClick={() => addFive(55)}>Add Five with 55</button>
+
+      {/* {
         singers.map(singer => <Singer key={singer.id} singer={singer}></Singer>)
-      }
+      } */}
       {/* <Actor></Actor>
       <Actor name="Kala Chan"></Actor>
       <Actor name={'Bappa Raj'}></Actor>
