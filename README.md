@@ -1,4 +1,16 @@
-# React + Vite
+# react-core-concepts-part-1-L2_preparation_004
+
+- React
+    - Component
+    - JSX Markup (HTML type code in JS file)
+
+
+
+
+
+
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
