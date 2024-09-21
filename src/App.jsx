@@ -1,12 +1,33 @@
+// import Actor from './Actor'
 import './App.css'
-import Todo from './Todo';
+import Singer from './Singer'
+// import Todo from './Todo';
 
 function App() {
+
+  // const actors = ['Sakib', 'Digbaji King', 'Manobotar Abbajan', 'Oi Bhaiya Na Please', 'Lottery King']
+
+  const singers = [
+    { id: 1, name: "Mahfuz Dada", age: 51 },
+    { id: 2, name: "Souvaw Day", age: 37 },
+    { id: 3, name: "Baccu Dadu", age: 48 },
+    { id: 4, name: "Priotoma Roy", age: 45 },
+    { id: 5, name: "Kaka Kakkar", age: 34 },
+  ]
 
   return (
     <>
       <h1>Vite + React</h1>
-      <Todo
+      {
+        singers.map(singer => <Singer key={singer.id} singer={singer}></Singer>)
+      }
+      {/* <Actor></Actor>
+      <Actor name="Kala Chan"></Actor>
+      <Actor name={'Bappa Raj'}></Actor>
+      {
+        actors.map(actor => <Actor key={actor} name={actor}></Actor>)
+      } */}
+      {/* <Todo
         task="Learn React"
         isDone={true}></Todo>
       <Todo
@@ -14,7 +35,7 @@ function App() {
         isDone={false}></Todo>
       <Todo
         task="Try JSX"
-        isDone={true}></Todo>
+        isDone={true}></Todo> */}
       {/* <Device name="Laptop" price="55000"></Device>
       <Device name="Mobile Phone"></Device>
       <Device name="Calculator"></Device>

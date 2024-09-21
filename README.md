@@ -24,6 +24,8 @@
     - Export from component to use in another component
     - Import component to use inside the component
     - ***Conditional Rendering***
+- Dynamic Component for array of elements
+    - **key** props
 
 
 
