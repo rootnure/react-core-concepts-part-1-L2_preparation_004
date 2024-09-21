@@ -20,7 +20,10 @@
     - Props drilling using spread operator
     - **children** in component
     - ***Props are read-only*** **Immutable**
-
+- Component Export/Import
+    - Export from component to use in another component
+    - Import component to use inside the component
+    - ***Conditional Rendering***
 
 
 
