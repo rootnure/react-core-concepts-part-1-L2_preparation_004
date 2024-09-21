@@ -3,8 +3,15 @@
 - React
     - Component
     - JSX Markup (HTML type code in JS file)
-
-
+    - Virtual DOM
+    - Babel Compiler
+- Rules of JSX
+    1. Return a single root element
+    2. Close all the tags
+    3. Must use camelCase
+    - Fragment
+    - JS in JSX using curly braces
+    - Using 'double curlies"
 
 
 
