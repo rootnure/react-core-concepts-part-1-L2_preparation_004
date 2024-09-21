@@ -12,7 +12,14 @@
     - Fragment
     - JS in JSX using curly braces
     - Using 'double curlies"
-
+- React Component
+    - Props (Only way to pass data from parent to child)
+    - Props or data passing is Uni-directional
+    - Destructuring during receiving props also can use default value
+    - Different types of data can be passed (String, Number, Object, Component etc.)
+    - Props drilling using spread operator
+    - **children** in component
+    - ***Props are read-only*** **Immutable**
 
 
 
