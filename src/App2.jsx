@@ -1,5 +1,6 @@
-import Counter from "./Counter";
-import Team from "./Team";
+// import Counter from "./Counter";
+// import Team from "./Team";
+import Users from "../Users";
 
 export default function App2() {
 
@@ -11,7 +12,10 @@ export default function App2() {
       {/* <Counter></Counter> */}
 
       {/* Understanding useState() and React Hook */}
-      <Team></Team>
+      {/* <Team></Team> */}
+
+      {/* side effect (data fetch) */}
+      <Users></Users>
     </>
   )
 }

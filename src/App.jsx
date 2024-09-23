@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-      <h2>Vite + React</h2>
+      <h2>React Core Concepts</h2>
       <App2></App2>
 
       {/* <button onClick={handleClick}>Click Me</button>

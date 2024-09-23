@@ -35,12 +35,16 @@
     ```jsx
     const [count, setCount] = useState(0);
     ```
+    - React Hooks
+        - ```useState()``` --> Handle state
+        - ```useEffect()``` --> Handle side effect
 
 ## React Core Concepts
 - Components and JSX
 - State and Props
 - Virtual DOM
 - Event Handler
+- React Hook
 
 
 
