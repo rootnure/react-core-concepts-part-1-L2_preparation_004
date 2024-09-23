@@ -40,11 +40,12 @@
         - ```useEffect()``` --> Handle side effect
 
 ## React Core Concepts
-- Components and JSX
-- State and Props
-- Virtual DOM
-- Event Handler
-- React Hook
+1. Components
+2. JSX
+3. Props
+4. Event Handler
+5. State
+6. Side Effect (load data from external source)
 
 
 

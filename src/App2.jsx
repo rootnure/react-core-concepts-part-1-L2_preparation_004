@@ -1,7 +1,8 @@
 // import Counter from "./Counter";
 // import Team from "./Team";
 // import Users from "../Users";
-import Friends from "./Friends";
+// import Friends from "./Friends";
+import Posts from "./Posts";
 
 export default function App2() {
 
@@ -19,7 +20,10 @@ export default function App2() {
       {/* <Users></Users> */}
 
       {/* handle API using useEffect() hook */}
-      <Friends></Friends>
+      {/* <Friends></Friends> */}
+
+      {/* React Core Concepts Recap */}
+      <Posts></Posts>
     </>
   )
 }
