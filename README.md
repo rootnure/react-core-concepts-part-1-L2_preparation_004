@@ -29,6 +29,12 @@
 - Interaction in React
     - Do not call any function directly
     - To pass a parameter to a function, must wrap using arrow function
+- React State
+    - State change is handled using ```useState()``` function (hook)
+    - It returns an array (a variable and a function to interact with that variable)
+    ```jsx
+    const [count, setCount] = useState(0);
+    ```
 
 ## React Core Concepts
 - Components and JSX
