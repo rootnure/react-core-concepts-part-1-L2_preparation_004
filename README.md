@@ -30,6 +30,12 @@
     - Do not call any function directly
     - To pass a parameter to a function, must wrap using arrow function
 
+## React Core Concepts
+- Components and JSX
+- State and Props
+- Virtual DOM
+- Event Handler
+
 
 
 ## React + Vite

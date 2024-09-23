@@ -1,5 +1,6 @@
 // import Actor from './Actor'
 import './App.css'
+import App2 from './App2'
 // import Singer from './Singer'
 // import Todo from './Todo';
 
@@ -15,36 +16,39 @@ function App() {
   //   { id: 5, name: "Kaka Kakkar", age: 34 },
   // ]
 
-  const handleClick = () => {
-    alert('btn clicked');
-  }
+  // const handleClick = () => {
+  //   alert('btn clicked');
+  // }
 
-  const addFive = (number) => {
-    alert(`${number + 5}`)
-  }
+  // const addFive = (number) => {
+  //   alert(`${number + 5}`)
+  // }
 
   return (
     <>
       <h2>Vite + React</h2>
+      <App2></App2>
 
-      <button onClick={handleClick}>Click Me</button>
+      {/* <button onClick={handleClick}>Click Me</button>
 
       <button onClick={() => alert('click me too clicked')}>Click Me Too</button>
 
       <button onClick={() => { alert('Also Click Me Clicked') }}>Also Click Me</button>
 
-      {/* parameter pass using array function wrapping */}
-      <button onClick={() => addFive(55)}>Add Five with 55</button>
+      <h6>parameter pass using array function wrapping</h6>
+      <button onClick={() => addFive(55)}>Add Five with 55</button> */}
 
       {/* {
         singers.map(singer => <Singer key={singer.id} singer={singer}></Singer>)
       } */}
+
       {/* <Actor></Actor>
       <Actor name="Kala Chan"></Actor>
       <Actor name={'Bappa Raj'}></Actor>
       {
         actors.map(actor => <Actor key={actor} name={actor}></Actor>)
       } */}
+
       {/* <Todo
         task="Learn React"
         isDone={true}></Todo>
@@ -54,6 +58,7 @@ function App() {
       <Todo
         task="Try JSX"
         isDone={true}></Todo> */}
+
       {/* <Device name="Laptop" price="55000"></Device>
       <Device name="Mobile Phone"></Device>
       <Device name="Calculator"></Device>
